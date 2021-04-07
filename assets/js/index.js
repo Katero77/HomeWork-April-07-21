@@ -7,8 +7,8 @@
 
 function capitalize(str){
   return str.split(" ")
-            .map((item) => item[0].toUpperCase() + item.slice(1))
-            .join(" ");
+      .map((item) => item[0].toUpperCase() + item.slice(1))
+     .join(" ");
 }
 
 const sentences = [
